@@ -9,12 +9,12 @@ App.get('/', function(request, response) {
         return sum;
     }
     
-    const a = 5;
-    const b = 10;
+    const firstvalue = 5;
+    const secondValue = 10;
     
-    const result = add(a, b);
+    const result = add(firstvalue, secondValue);
 
-   response.send("<h1>" + a + " + " + b + " is " + result + "</h1>");
+   response.send("<h1>" + firstvalue + " + " + secondValue + " is " + result + "</h1>");
 })
 
 App.listen(3000, function() {});
