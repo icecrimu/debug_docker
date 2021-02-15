@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect=0.0.0.0 app.js"
+    "start": "nodemon --inspect=0.0.0.0 src/app.js"
   },
   "author": "Oliver",
   "license": "ISC"
